@@ -13,3 +13,5 @@ https://yskwsnsk.github.io/sand-box/
 https://python-bottle-dev.herokuapp.com/
 
 https://python-django-dev.herokuapp.com/
+https://python-django-dev.herokuapp.com/hello/
+
