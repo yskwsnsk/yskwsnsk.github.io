@@ -20,6 +20,7 @@ h1 {
 
 .app a {
     position: absolute;
+    font-size: 36px;
     top: 0;
     left: 0;
     width: 100%;
