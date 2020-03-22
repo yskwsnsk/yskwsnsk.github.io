@@ -1,6 +1,14 @@
+h1 {
+    margin: 20px 30px;
+}
+
+div {
+    margin: 40px 60px;
+}
+
 .app {
     position: relative;
-    width: 100px;
+    width: 200px;
     height: 60px;
     background-color: skyblue;
     border-radius: 10px;
