@@ -2,14 +2,18 @@ h1 {
     margin: 20px 30px;
 }
 
-div {
-    margin: 40px 60px;
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
 }
 
 .app {
     position: relative;
-    width: 200px;
+    margin: 40px 80px;
+    width: 300px;
     height: 60px;
+    float: left;
     background-color: skyblue;
     border-radius: 10px;
 }
