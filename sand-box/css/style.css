@@ -37,15 +37,15 @@ a:link{
     height: 100%;
 }
 
-.header-container{
-    position: fixed;    
+.header-menu-container{
+    float: right;    
 }
 
 .header-menu{
-    float: right;
+    float: left;
     position: relative;
     height: 100%;
-    font-size: 36px;
+    font-size: 40px;
 }
 
 .header-bg{
