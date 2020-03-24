@@ -79,10 +79,11 @@ a:link{
 
 .hamburger div{
     position: absolute;
+    left: 9px;
+    box-sizing: border-box;
     width: 70%;
-    height: 4px;
-    margin: 0 auto;
-    border-radius: 4px;
+    height: 3px;
+    border-radius: 3px;
     background-color: #fff;
 }
 
