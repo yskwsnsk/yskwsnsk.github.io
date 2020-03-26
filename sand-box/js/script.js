@@ -1,12 +1,20 @@
-// $(function(){
-//     $('.hamburger').on('click', function() {
-//         $(this).toggleClass('active');
-//         return false;
-//     });
-// });
 
-// const section01Target;
+/****************************************
+*****************HEADER******************
+****************************************/
 
+$(function(){
+    $('.hamburger').on('click', function() {
+        $(this).toggleClass('active');
+        return false;
+    });
+});
+
+/****************************************
+*****************MAIN********************
+****************************************/
+
+/* section 1 Fortune */
 
 document.addEventListener('DOMContentLoaded', () => {
     const section01Target = document.getElementById('section01-target');
@@ -17,4 +25,15 @@ document.addEventListener('DOMContentLoaded', () => {
     section01Toggle.addEventListener('click', () => {
         section01Toggle.classList.toggle('section01-circle');
     });
+});
+
+document.addEventListener('DOMContentLoaded', () => {
+    const fortune = document.createElement('div');
+    fortune.classList.add('section01-box');
+    fortune.addEventListener('click', () => {
+        fortune.classList.toggle('section01-circle');
+    });
+
+    const fortuneWrapper = document.getElementById('section01-fortune-wrapper');
+    fortuneWrapper.appendChild(fortune);
 });

@@ -139,9 +139,14 @@ section {
     box-shadow: 0px 0px 10px lightgray;
 }
 
-/* section 1 XXXXX */
+.flex-container{
+    display: flex;
+}
+
+/* section 1 Fortune */
 
 .section01-box {
+    display: flex;
     margin: 30px;
     height: 100px;
     width: 100px;
@@ -152,6 +157,7 @@ section {
     background-color: pink;
     border-radius: 50%;
     transition: 0.5s;
+    transform: rotate(360deg);
 }
 
 /* section X XXXXX */
