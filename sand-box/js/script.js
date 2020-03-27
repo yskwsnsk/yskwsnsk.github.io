@@ -46,21 +46,23 @@ document.addEventListener('DOMContentLoaded', () => {
 document.addEventListener('DOMContentLoaded', () => {
     const btn = document.getElementById('section01-btn');
     btn.addEventListener('click',() => {
-        const n = Math.floor(Math.random() * 4);
-        switch (n) {
-            case 0:
-                btn.textContent = '大吉';
-                break;
-            case 1:
-                btn.textContent = '中吉';
-                break;
-            case 2:
-                btn.textContent = '小吉';
-                break;
-            case 3:
-                btn.textContent = '凶';
-                break;
-        }
+        const results = ['大吉', '中吉', '小吉', '凶']
+        const n = Math.floor(Math.random() * results.length);
+        btn.textContent = results[n];
+        // switch (n) {
+        //     case 0:
+        //         btn.textContent = '大吉';
+        //         break;
+        //     case 1:
+        //         btn.textContent = '中吉';
+        //         break;
+        //     case 2:
+        //         btn.textContent = '小吉';
+        //         break;
+        //     case 3:
+        //         btn.textContent = '凶';
+        //         break;
+        // }
     });
 });
 
