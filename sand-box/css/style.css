@@ -17,6 +17,15 @@ h1 {
     padding: 5px 10px;
 }
 
+a:visited{
+    color: #FFF;
+}
+
+a:link{
+    color: #FFF;
+    text-decoration: none;
+}
+
 /****************************************
 *****************HEADER******************
 ****************************************/
@@ -31,45 +40,46 @@ header {
     width: 100%;
 }
 
-a:visited{
-    color: #FFF;
-}
-
-a:link{
-    color: #FFF;
-    text-decoration: none;
+.header-container {
+    background-color: grey;
+    z-index: 999;
 }
 
 .header-title {
     float: left;
     height: 100%;
+    background-color: grey;
 }
 
 .header-menu-container{
-    float: right;    
+    float: right;
+    z-index: 999;
+    background-color: grey;
 }
 
 .header-menu{
     float: left;
     position: relative;
     height: 100%;
-    font-size: 40px;
-}
-
-.header-bg{
+    font-size: 30px;
     background-color: grey;
-    color: #FFF;
-    height: 60px;
-    width: 100%;
 }
 
 .header-menu a {
     display: block;
-    height: 100%;
+    padding: 15px;
+    line-height: 100%;
 }
 
 .header-menu a:hover {
     background-color: #999;
+}
+
+.header-bg{
+    /* background-color: #EEE; */
+    background-color: grey;
+    height: 60px;
+    width: 100%;
 }
 
 /****************HAMBURGER*******************/
@@ -77,6 +87,8 @@ a:link{
 .hamburger{
     position: relative;
     width: 60px;
+    background-color: grey;
+    z-index: 999;
 }
 
 .hamburger div{
@@ -102,7 +114,7 @@ a:link{
 
 /* animation */
 /* 修正中 */
-.hamburger {
+/* .hamburger {
     -webkit-perspective: 1000px;
     perspective: 1000px;
 }
@@ -125,7 +137,7 @@ a:link{
 .hamburger.active div:nth-of-type(3) {
     opacity: 0;
 }
-  
+   */
 
 /****************************************
 *****************MAIN********************
@@ -133,7 +145,7 @@ a:link{
 
 section {
     margin: 20px;
-    padding: 5px;
+    padding: 10px;
     border-radius: 10px;
     background-color: #FFF;
     box-shadow: 0px 0px 10px lightgray;
@@ -146,19 +158,74 @@ section {
 /* section 1 Fortune */
 
 .section01-box {
-    display: flex;
     margin: 30px;
     height: 100px;
     width: 100px;
+    border-radius: 10%;
+    text-align: center;
+    line-height: 100px;
     background-color: skyblue;
-    transition: 0.5s;
+    box-shadow: 0px 0px 10px -2px lightgray;
+    transition: 1.0s;
 }
 .section01-circle {
     background-color: pink;
     border-radius: 50%;
-    transition: 0.5s;
+    transition: 1.0s;
     transform: rotate(360deg);
 }
+
+.section01-win {
+    background-color: pink;
+    border-radius: 50%;
+    transition: 1.0s;
+    transform: rotate(360deg);
+}
+
+.section01-lose {
+    background-color: lightgray;
+    transition: 1.0s;
+    transform: rotate(360deg) scale(0.8);
+}
+
+#section01-btn {
+    margin: 40px auto;
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    line-height: 200px;
+    border-radius: 50%;
+    background-color: #f55;
+    color: #FFF;
+    font-weight: bold;
+    font-size: 50px;
+    box-shadow: 0 10px 0 #f33;
+    user-select: none;
+}
+
+#section01-btn:hover {
+    opacity: 0.8;
+    
+}
+
+#section01-btn:active {
+    margin-top: 45px;
+    margin-bottom: 35px;
+    box-shadow: 0 5px 0 #f33;
+
+}
+
+/* section X XXXXX */
+
+/* section X XXXXX */
+
+/* section X XXXXX */
+
+/* section X XXXXX */
+
+/* section X XXXXX */
+
+/* section X XXXXX */
 
 /* section X XXXXX */
 
