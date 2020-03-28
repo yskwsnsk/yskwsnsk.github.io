@@ -32,7 +32,7 @@ a:link{
 
 header {
     position: fixed;
-    background-color: grey;
+    opacity: 0.8;
     color: #FFF;
     margin: 0px;
     padding: 0px;
@@ -40,21 +40,14 @@ header {
     width: 100%;
 }
 
-.header-container {
-    background-color: grey;
-    z-index: 999;
-}
-
 .header-title {
     float: left;
     height: 100%;
-    background-color: grey;
 }
 
 .header-menu-container{
     float: right;
-    z-index: 999;
-    background-color: grey;
+    /* z-index: 999; */
 }
 
 .header-menu{
@@ -62,7 +55,6 @@ header {
     position: relative;
     height: 100%;
     font-size: 30px;
-    background-color: grey;
 }
 
 .header-menu a {
@@ -76,7 +68,6 @@ header {
 }
 
 .header-bg{
-    /* background-color: #EEE; */
     background-color: grey;
     height: 60px;
     width: 100%;
