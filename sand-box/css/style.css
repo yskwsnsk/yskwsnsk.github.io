@@ -147,6 +147,11 @@ section {
 
 /* section 1 Fortune */
 
+#section01-fortune-wrapper {
+    justify-content: space-around;
+
+}
+
 .section01-box {
     margin: 30px;
     height: 100px;
@@ -158,12 +163,13 @@ section {
     box-shadow: 0px 0px 10px -2px lightgray;
     transition: 1.0s;
 }
-.section01-circle {
+
+/* .section01-circle {
     background-color: pink;
     border-radius: 50%;
     transition: 1.0s;
     transform: rotate(360deg);
-}
+} */
 
 .section01-win {
     background-color: pink;
@@ -227,5 +233,15 @@ section {
 footer {
     background-color: #DDD;
     margin: 0px;
-    padding: 0px;
+    padding: 10px;
+    text-align: center;
+}
+
+#footer-link-container{
+    display: inline-flex;
+    flex-direction: column;
+}
+
+footer a {
+    margin: 10px;
 }
